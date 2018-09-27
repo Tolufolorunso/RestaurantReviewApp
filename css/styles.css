@@ -453,33 +453,16 @@ nav h1 a {
     border: 10px solid #ccc;
     border-radius: 3px;
     margin: 3px;
-    padding: 4px;
+    padding: 7px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {}
 
-    #reviews-container h2 {
-        text-align: center;
-        font-size: 2rem;
-    }
 
-    #reviews-list {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #reviews-list li {
-        width: 50%;
-    }
-
-}
 
 /* ===== media query =========== */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 760px) {
 
     .filter-options {
         flex-direction: row;
@@ -510,6 +493,34 @@ nav h1 a {
 
     #restaurants-list li a {
         margin-left: 0;
+    }
+
+    #reviews-container h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #reviews-list {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #reviews-list li {
+        box-sizing: border-box;
+        width: 45%;
+    }
+
+    .px700 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .RestImg {
+        width: 60%;
+        margin-right: 10px;
     }
 }
 
