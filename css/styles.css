@@ -76,13 +76,13 @@ section {
 }
 
 #maincontent {
-    background-color: #f3f3f3;
+    background-color: #fff;
     min-height: 100%;
 }
 
 #footer {
     background-color: #444;
-    color: #aaa;
+    color: #fff;
     font-size: 8pt;
     letter-spacing: 1px;
     padding: 25px;
@@ -126,7 +126,7 @@ nav h1 a {
 #breadcrumb {
     padding: 1rem;
     list-style: none;
-    background-color: #eee;
+    background-color: #fff;
     margin: 0;
     /*    width: 100vw;*/
 }
@@ -236,6 +236,7 @@ nav h1 a {
     text-align: left;
     /*    width: 270px;*/
     width: 100%;
+    color: black;
 }
 
 #restaurants-list .restaurant-img {
@@ -399,7 +400,7 @@ nav h1 a {
 
 #restaurant-cuisine {
     background-color: #333;
-    color: #ddd;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 10px;
